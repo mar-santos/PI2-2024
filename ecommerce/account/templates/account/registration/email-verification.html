@@ -1,0 +1,28 @@
+{% autoescape off %}
+
+Olá,
+
+Obrigado por se registrar em nosso website.
+
+Por favor, clique no link abaixo para verificar o seu email.
+
+http://{{domain}}{% url 'email-verification' uidb64=uid token=token %}
+
+{% endautoescape %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
